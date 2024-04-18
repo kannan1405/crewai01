@@ -2,7 +2,7 @@ from crewai import Agent, Task, Crew, Process
 import os
 from langchain_google_genai import GoogleGenerativeAI
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCOBYtNdy1fLC6mREpK9kN6UbHZr_GIS0I"
+os.environ["GOOGLE_API_KEY"] = your_api_key
 
 go_llm = GoogleGenerativeAI(model="gemini-pro")
 
